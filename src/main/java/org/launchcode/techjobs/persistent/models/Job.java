@@ -17,6 +17,7 @@ public class Job{
     public Job() {
     }
 
+
     public Job(String anEmployer, String someSkills) {
         super();
         this.employer = anEmployer;
