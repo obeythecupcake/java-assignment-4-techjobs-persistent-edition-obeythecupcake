@@ -19,7 +19,7 @@ public class EmployerController {
     private EmployerRepository employerRepository;
 
 // create method called index ... calls .findAll().. route /employers
-    @GetMapping("")
+    @RequestMapping("")
     public String index(Model model){
     model.addAttribute("employers", employerRepository.findAll());
     return "employers/index";
